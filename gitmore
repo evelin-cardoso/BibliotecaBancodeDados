@@ -1,0 +1,28 @@
+
+### .gitignore
+
+O arquivo `.gitignore` é usado para especificar quais arquivos ou diretórios não devem ser incluídos no controle de versão. Aqui está um exemplo para um projeto SQL:
+
+```plaintext
+# Ignore arquivos de configuração de ambiente de banco de dados
+*.env
+
+# Ignore diretórios de IDEs e editores
+.vscode/
+.idea/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore diretórios de backup de banco de dados
+/backup/
+
+# Ignore arquivos temporários do sistema
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de banco de dados gerados
+*.sql-journal
+*.db
